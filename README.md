@@ -95,15 +95,21 @@ AI_Pipeline_BLOOD_TEST_ANALYZER/
 ## Key Challenges
 
 Data Privacy: Handling sensitive medical data requires strict privacy and security measures.
+
 Input Quality: Uploaded images or PDFs may be low quality, affecting extraction and analysis accuracy.
+
 Error Handling: Current fallback analysis is basic and may not meet user needs in case of repeated API failures.
+
 Model Limitations: The generative model may not always provide clinically accurate or actionable recommendations.
 
 ## Assumptions
 Users have a valid Gemini API key set in their environment.
+
 Uploaded files are genuine medical reports (images or PDFs).
+
 The model can interpret both text and image inputs effectively.
-Users understand that the analysis is for informational purposes, not a substitute for professional medical advice.
+
+
 
 ## Improvement ideas
 
