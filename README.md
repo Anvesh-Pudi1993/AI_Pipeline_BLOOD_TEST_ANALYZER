@@ -1,4 +1,4 @@
-#  AI_Pipeline based Blood Report Analysis user guide 
+#  AI_Pipeline Based Blood Report Analysis User Guide 
 
 ## Overview
 
