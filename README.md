@@ -92,4 +92,30 @@ AI_Pipeline_BLOOD_TEST_ANALYZER/
 └── Streamlit_Bloodreport_Analyzer_AI_Pipeline.png      # Streamlit app interface for blood test report analysis and recommendations
 ```
 
+## Key Challenges
+
+Data Privacy: Handling sensitive medical data requires strict privacy and security measures.
+Input Quality: Uploaded images or PDFs may be low quality, affecting extraction and analysis accuracy.
+Error Handling: Current fallback analysis is basic and may not meet user needs in case of repeated API failures.
+Model Limitations: The generative model may not always provide clinically accurate or actionable recommendations.
+
+## Assumptions
+Users have a valid Gemini API key set in their environment.
+Uploaded files are genuine medical reports (images or PDFs).
+The model can interpret both text and image inputs effectively.
+Users understand that the analysis is for informational purposes, not a substitute for professional medical advice.
+
+## Improvement ideas
+
+Input Validation: Add checks for file size, format, and image clarity before processing.
+Security Enhancements: Ensure temporary files are securely deleted and consider encrypting sensitive data.
+
+User Guidance: Offer tooltips or examples to help users upload optimal files.
+Explainability: Integrate model explanation tools (e.g., highlight key findings in the report).
+Batch Processing: Allow multiple files to be analyzed in one session.
+
+Logging & Monitoring: Track usage and errors for maintenance and improvement.
+
+Model Updates: Periodically update or fine-tune the model for improved medical accuracy.
+
 
